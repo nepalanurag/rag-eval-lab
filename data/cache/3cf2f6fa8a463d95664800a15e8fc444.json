@@ -1,0 +1,1 @@
+{"model": "gemini-3.5-flash-lite", "prompt_hash": "3cf2f6fa8a463d95664800a15e8fc444", "text": "```json\n{\n  \"claims\": [\n    {\n      \"claim\": \"Eligible studies in the systematic review must include children and adolescents with asthma receiving inhaled corticosteroids (ICS) for at least 6 months.\",\n      \"verdict\": \"supported\"\n    }\n  ]\n}\n```"}

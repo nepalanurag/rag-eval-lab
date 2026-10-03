@@ -1,0 +1,1 @@
+{"model": "gemini-3.5-flash-lite", "prompt_hash": "6ee3262dc826ce87d8ee71419f790e80", "text": "```json\n{\n  \"claims\": [\n    {\n      \"claim\": \"Patients with poorly controlled diabetes mellitus are at particularly high risk for severe Fournier's gangrene and its complications.\",\n      \"verdict\": \"supported\"\n    }\n  ]\n}\n```"}

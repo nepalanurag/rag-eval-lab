@@ -1,0 +1,1 @@
+{"model": "gemini-3.5-flash-lite", "prompt_hash": "ca480ea164c7727685d86f4fd39ee311", "text": "```json\n{\"claims\": [{\"claim\": \"In the provided passages, the treatment response to erenumab is defined as achieving a $\\ge$ 50% reduction in monthly headache or migraine days.\", \"verdict\": \"supported\"}]}\n```"}

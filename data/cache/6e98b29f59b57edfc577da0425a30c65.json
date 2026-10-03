@@ -1,0 +1,1 @@
+{"model": "gemini-3.5-flash-lite", "prompt_hash": "6e98b29f59b57edfc577da0425a30c65", "text": "```json\n{\"claims\": [{\"claim\": \"The treatment response was defined as a \u2265 50% reduction in monthly migraine days from baseline to Weeks 13-24.\", \"verdict\": \"supported\"}]}\n```"}

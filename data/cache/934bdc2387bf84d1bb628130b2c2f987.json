@@ -1,0 +1,1 @@
+{"model": "gemini-3.5-flash-lite", "prompt_hash": "934bdc2387bf84d1bb628130b2c2f987", "text": "```json\n{\n  \"claims\": [\n    {\n      \"claim\": \"Poor asthma control and exacerbations are the principal drivers of adverse maternal and fetal outcomes during pregnancy.\",\n      \"verdict\": \"supported\"\n    }\n  ]\n}\n```"}

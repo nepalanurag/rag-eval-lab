@@ -1,0 +1,1 @@
+{"model": "gemini-3.5-flash-lite", "prompt_hash": "971fa7f39016e1e102f434a7701d799a", "text": "```json\n{\n  \"claims\": [\n    {\n      \"claim\": \"The treatment response to erenumab was defined in the studies as a >= 50% reduction in monthly headache days (MHD) or monthly migraine days from baseline.\",\n      \"verdict\": \"supported\"\n    }\n  ]\n}\n```"}

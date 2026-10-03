@@ -1,0 +1,1 @@
+{"model": "gemini-3.5-flash-lite", "prompt_hash": "c178d8fd28e55ba566d805861086889a", "text": "```json\n{\n  \"claims\": [\n    {\n      \"claim\": \"The mean monthly migraine frequency in adolescents with medically refractory migraine decreased from 14.4 to 4.7 days after the third session of peripheral nerve blocks.\",\n      \"verdict\": \"supported\"\n    }\n  ]\n}\n```"}

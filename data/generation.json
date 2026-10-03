@@ -1,0 +1,1177 @@
+{
+ "seed": 20261002,
+ "subset": [
+  "q06",
+  "q09",
+  "q10",
+  "q11",
+  "q21",
+  "q23",
+  "q24",
+  "q26",
+  "q32",
+  "q35"
+ ],
+ "generations": {
+  "q06|small|3|off": {
+   "question_id": "q06",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42592142_c0",
+    "s_pmid_42792791_c0",
+    "s_pmid_42504775_c0"
+   ],
+   "answer": "After 12 months of tezepelumab treatment, the 31-year-old man achieved normalization of his symptoms, biomarkers, lung function, and flow-volume loop morphology, with no further exacerbations. This demonstrated a striking functional recovery and suggested a potential role for tezepelumab in modifying early airway remodeling."
+  },
+  "q06|small|3|on": {
+   "question_id": "q06",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42592142_c0",
+    "s_pmid_42792791_c0",
+    "s_pmid_42504775_c0"
+   ],
+   "answer": "After 12 months of tezepelumab treatment, the 31-year-old man achieved normalization of his symptoms, biomarkers, lung function, and flow-volume loop morphology, with no further exacerbations. This demonstrated a striking functional recovery and suggested a potential role for tezepelumab in modifying early airway remodeling."
+  },
+  "q06|small|8|off": {
+   "question_id": "q06",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42592142_c0",
+    "s_pmid_42792791_c0",
+    "s_pmid_42504775_c0",
+    "s_pmid_42553276_c0",
+    "s_pmid_42548379_c0",
+    "s_pmid_42800990_c0",
+    "s_pmid_42601061_c1",
+    "s_pmid_42618555_c0"
+   ],
+   "answer": "After 12 months of tezepelumab treatment, the patient achieved normalization of his symptoms, biomarkers, lung function, and flow-volume loop morphology. Additionally, he experienced no further exacerbations."
+  },
+  "q06|small|8|on": {
+   "question_id": "q06",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42592142_c0",
+    "s_pmid_42792791_c0",
+    "s_pmid_42504775_c0",
+    "s_pmid_42553276_c0",
+    "s_pmid_42548379_c0",
+    "s_pmid_42800990_c0",
+    "s_pmid_42576943_c1",
+    "s_pmid_42601061_c1"
+   ],
+   "answer": "After 12 months of tezepelumab treatment, the patient achieved normalization of symptoms, biomarkers, lung function, and flow-volume loop morphology. Additionally, he experienced no further exacerbations."
+  },
+  "q06|large|3|off": {
+   "question_id": "q06",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42592142_c0",
+    "l_pmid_42601061_c0",
+    "l_pmid_42792791_c0"
+   ],
+   "answer": "After 12 months of tezepelumab treatment, the 31-year-old man achieved normalization of his symptoms, biomarkers, lung function, and flow-volume loop morphology without any further exacerbations. This demonstrated a striking functional recovery and highlighted the potential role of tezepelumab in modifying early airway remodeling."
+  },
+  "q06|large|3|on": {
+   "question_id": "q06",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42592142_c0",
+    "l_pmid_42601061_c0",
+    "l_pmid_42792791_c0"
+   ],
+   "answer": "After 12 months of tezepelumab treatment, the 31-year-old man achieved normalization of his symptoms, biomarkers, lung function, and flow-volume loop morphology without any further exacerbations. This demonstrated a striking functional recovery and highlighted the potential role of tezepelumab in modifying early airway remodeling."
+  },
+  "q06|large|8|off": {
+   "question_id": "q06",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42592142_c0",
+    "l_pmid_42601061_c0",
+    "l_pmid_42792791_c0",
+    "l_pmid_42548379_c0",
+    "l_pmid_42671407_c0",
+    "l_pmid_42576943_c0",
+    "l_pmid_42553276_c0",
+    "l_pmid_42618555_c0"
+   ],
+   "answer": "After 12 months of tezepelumab treatment, the patient achieved normalization of symptoms, biomarkers, lung function, and flow-volume loop morphology. Additionally, he experienced no further exacerbations."
+  },
+  "q06|large|8|on": {
+   "question_id": "q06",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42592142_c0",
+    "l_pmid_42601061_c0",
+    "l_pmid_42792791_c0",
+    "l_pmid_42548379_c0",
+    "l_pmid_42671407_c0",
+    "l_pmid_42576943_c0",
+    "l_pmid_42553276_c0",
+    "l_pmid_42546934_c0"
+   ],
+   "answer": "After 12 months of tezepelumab treatment, the patient achieved normalization of symptoms, biomarkers, lung function, and flow-volume loop morphology. Additionally, he experienced no further exacerbations."
+  },
+  "q09|small|3|off": {
+   "question_id": "q09",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42811848_c0",
+    "s_pmid_42810469_c0",
+    "s_pmid_42755259_c0"
+   ],
+   "answer": "Based on the provided context, the principal drivers of adverse maternal and fetal outcomes in pregnant women with asthma are poor asthma control and exacerbations."
+  },
+  "q09|small|3|on": {
+   "question_id": "q09",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42755259_c0",
+    "s_pmid_42476598_c0",
+    "s_pmid_42810469_c1"
+   ],
+   "answer": "Based on the provided context, the principal drivers of adverse maternal and fetal outcomes during pregnancy are poor asthma control and exacerbations. These drivers can lead to issues such as hypertensive disorders, preterm birth, fetal growth restriction, and neonatal morbidity."
+  },
+  "q09|small|8|off": {
+   "question_id": "q09",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42811848_c0",
+    "s_pmid_42810469_c0",
+    "s_pmid_42755259_c0",
+    "s_pmid_42810469_c1",
+    "s_pmid_42755259_c1",
+    "s_pmid_42800413_c0",
+    "s_pmid_42476598_c0",
+    "s_pmid_42812544_c1"
+   ],
+   "answer": "Based on the provided context, the principal drivers of adverse maternal and fetal outcomes in pregnant women with asthma are poor asthma control and exacerbations."
+  },
+  "q09|small|8|on": {
+   "question_id": "q09",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42755259_c0",
+    "s_pmid_42476598_c0",
+    "s_pmid_42810469_c1",
+    "s_pmid_42755259_c1",
+    "s_pmid_42810469_c0",
+    "s_pmid_42812544_c1",
+    "s_pmid_42643799_c1",
+    "s_pmid_42812544_c0"
+   ],
+   "answer": "During pregnancy, poor asthma control and exacerbations are the principal drivers of adverse maternal and fetal outcomes. These adverse outcomes include hypertensive disorders, preterm birth, fetal growth restriction, and neonatal morbidity."
+  },
+  "q09|large|3|off": {
+   "question_id": "q09",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42810469_c0",
+    "l_pmid_42755259_c0",
+    "l_pmid_42643799_c0"
+   ],
+   "answer": "Based on the provided context, poor asthma control and exacerbations are the principal drivers of adverse maternal and fetal outcomes during pregnancy."
+  },
+  "q09|large|3|on": {
+   "question_id": "q09",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42755259_c0",
+    "l_pmid_42476598_c0",
+    "l_pmid_42643799_c0"
+   ],
+   "answer": "Based on the provided context, poor asthma control and exacerbations are the principal drivers of adverse maternal and fetal outcomes during pregnancy. These outcomes include hypertensive disorders, preterm birth, fetal growth restriction, and neonatal morbidity."
+  },
+  "q09|large|8|off": {
+   "question_id": "q09",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42810469_c0",
+    "l_pmid_42755259_c0",
+    "l_pmid_42643799_c0",
+    "l_pmid_42476598_c0",
+    "l_pmid_42811848_c0",
+    "l_pmid_42800413_c0",
+    "l_pmid_42812544_c0",
+    "l_pmid_42801265_c0"
+   ],
+   "answer": "Based on the provided context, poor asthma control and exacerbations are the principal drivers of adverse maternal and fetal outcomes during pregnancy. These adverse outcomes include hypertensive disorders, preterm birth, fetal growth restriction, and neonatal morbidity."
+  },
+  "q09|large|8|on": {
+   "question_id": "q09",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42755259_c0",
+    "l_pmid_42476598_c0",
+    "l_pmid_42643799_c0",
+    "l_pmid_42810469_c0",
+    "l_pmid_42812544_c0",
+    "l_pmid_42635984_c0",
+    "l_pmid_42652916_c0",
+    "l_pmid_42801265_c0"
+   ],
+   "answer": "During pregnancy, poor asthma control and exacerbations are the principal drivers of adverse maternal and fetal outcomes, including hypertensive disorders, preterm birth, fetal growth restriction, and neonatal morbidity."
+  },
+  "q10|small|3|off": {
+   "question_id": "q10",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42807464_c0",
+    "s_pmid_42613771_c0",
+    "s_pmid_42477710_c0"
+   ],
+   "answer": "Based on the provided context, eligible studies in the systematic review required children and adolescents with asthma to receive ICS for at least 6 months."
+  },
+  "q10|small|3|on": {
+   "question_id": "q10",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42807464_c0",
+    "s_pmid_42662812_c0",
+    "s_pmid_42505046_c0"
+   ],
+   "answer": "Based on the provided context, eligible studies in the systematic review required children and adolescents with asthma to receive inhaled corticosteroids (ICS) for at least 6 months."
+  },
+  "q10|small|8|off": {
+   "question_id": "q10",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42807464_c0",
+    "s_pmid_42613771_c0",
+    "s_pmid_42477710_c0",
+    "s_pmid_42777915_c0",
+    "s_pmid_42501004_c0",
+    "s_pmid_42688694_c0",
+    "s_pmid_42704292_c0",
+    "s_pmid_42751607_c0"
+   ],
+   "answer": "Based on the provided context, eligible studies in the systematic review evaluating the effects of long-term inhaled corticosteroids on growth velocity and adult height required children and adolescents with asthma to receive ICS for at least 6 months."
+  },
+  "q10|small|8|on": {
+   "question_id": "q10",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42807464_c0",
+    "s_pmid_42662812_c0",
+    "s_pmid_42505046_c0",
+    "s_pmid_42688694_c0",
+    "s_pmid_42613771_c0",
+    "s_pmid_42666756_c2",
+    "s_pmid_42823762_c0",
+    "s_pmid_42644543_c2"
+   ],
+   "answer": "Based on the provided context, eligible studies in the systematic review must include children and adolescents with asthma receiving inhaled corticosteroids (ICS) for at least 6 months."
+  },
+  "q10|large|3|off": {
+   "question_id": "q10",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42807464_c0",
+    "l_pmid_42733757_c0",
+    "l_pmid_42613771_c0"
+   ],
+   "answer": "Based on the provided context, eligible studies in the systematic review required children and adolescents with asthma to receive inhaled corticosteroids (ICS) for at least 6 months."
+  },
+  "q10|large|3|on": {
+   "question_id": "q10",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42662812_c0",
+    "l_pmid_42807464_c0",
+    "l_pmid_42644543_c0"
+   ],
+   "answer": "Based on the provided context, eligible studies in the systematic review required children and adolescents with asthma to receive inhaled corticosteroids (ICS) for at least 6 months."
+  },
+  "q10|large|8|off": {
+   "question_id": "q10",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42807464_c0",
+    "l_pmid_42733757_c0",
+    "l_pmid_42613771_c0",
+    "l_pmid_42501004_c0",
+    "l_pmid_42704292_c0",
+    "l_pmid_42751607_c0",
+    "l_pmid_42486504_c0",
+    "l_pmid_42777915_c0"
+   ],
+   "answer": "Based on the provided context, eligible studies must include children and adolescents with asthma receiving ICS for at least 6 months."
+  },
+  "q10|large|8|on": {
+   "question_id": "q10",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42662812_c0",
+    "l_pmid_42807464_c0",
+    "l_pmid_42644543_c0",
+    "l_pmid_42505046_c0",
+    "l_pmid_42613771_c0",
+    "l_pmid_42666756_c0",
+    "l_pmid_42486504_c0",
+    "l_pmid_42733757_c0"
+   ],
+   "answer": "Based on the provided text, eligible studies in the systematic review of children with asthma required patients to receive inhaled corticosteroids (ICS) for at least 6 months."
+  },
+  "q11|small|3|off": {
+   "question_id": "q11",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42799449_c0",
+    "s_pmid_42813280_c0",
+    "s_pmid_42801140_c1"
+   ],
+   "answer": "Postoperative intra-abdominal hypertension in the study is defined as an intra-abdominal pressure greater than 12 mmHg occurring within 48 hours after the initiation of postoperative opioid analgesia in the ICU."
+  },
+  "q11|small|3|on": {
+   "question_id": "q11",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42799449_c0",
+    "s_pmid_42803592_c1",
+    "s_pmid_42801140_c1"
+   ],
+   "answer": "Based on the provided context, postoperative intra-abdominal hypertension is defined as an intra-abdominal pressure greater than 12 mmHg occurring within 48 hours after the initiation of postoperative opioid analgesia in the ICU."
+  },
+  "q11|small|8|off": {
+   "question_id": "q11",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42799449_c0",
+    "s_pmid_42813280_c0",
+    "s_pmid_42801140_c1",
+    "s_pmid_42802771_c1",
+    "s_pmid_42799449_c2",
+    "s_pmid_42826060_c0",
+    "s_pmid_42801134_c0",
+    "s_pmid_42812180_c0"
+   ],
+   "answer": "Postoperative intra-abdominal hypertension is defined as an intra-abdominal pressure greater than 12 mmHg occurring within 48 hours after the initiation of postoperative opioid analgesia in the intensive care unit."
+  },
+  "q11|small|8|on": {
+   "question_id": "q11",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42799449_c0",
+    "s_pmid_42803592_c1",
+    "s_pmid_42801140_c1",
+    "s_pmid_42802771_c1",
+    "s_pmid_42799449_c2",
+    "s_pmid_42801134_c0",
+    "s_pmid_42812180_c0",
+    "s_pmid_42825866_c0"
+   ],
+   "answer": "Postoperative intra-abdominal hypertension (IAH) is defined as an intra-abdominal pressure greater than 12 mmHg. This condition occurs within 48 hours after the initiation of postoperative opioid analgesia in the intensive care unit."
+  },
+  "q11|large|3|off": {
+   "question_id": "q11",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42799449_c0",
+    "l_pmid_42801140_c0",
+    "l_pmid_42812180_c0"
+   ],
+   "answer": "Postoperative intra-abdominal hypertension is defined as an intra-abdominal pressure greater than 12 mmHg occurring within 48 hours after the initiation of postoperative opioid analgesia in the ICU."
+  },
+  "q11|large|3|on": {
+   "question_id": "q11",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42799449_c0",
+    "l_pmid_42801140_c0",
+    "l_pmid_42803592_c0"
+   ],
+   "answer": "In this study, postoperative intra-abdominal hypertension is defined as an intra-abdominal pressure greater than 12 mmHg occurring within 48 hours after the initiation of postoperative opioid analgesia in the ICU."
+  },
+  "q11|large|8|off": {
+   "question_id": "q11",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42799449_c0",
+    "l_pmid_42801140_c0",
+    "l_pmid_42812180_c0",
+    "l_pmid_42802771_c0",
+    "l_pmid_42813280_c0",
+    "l_pmid_42801134_c0",
+    "l_pmid_42825866_c0",
+    "l_pmid_42826060_c0"
+   ],
+   "answer": "Postoperative intra-abdominal hypertension is defined as an intra-abdominal pressure greater than 12 mmHg occurring within 48 hours after the initiation of postoperative opioid analgesia in the intensive care unit."
+  },
+  "q11|large|8|on": {
+   "question_id": "q11",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42799449_c0",
+    "l_pmid_42801140_c0",
+    "l_pmid_42803592_c0",
+    "l_pmid_42812180_c0",
+    "l_pmid_42802771_c0",
+    "l_pmid_42801134_c0",
+    "l_pmid_42825866_c0",
+    "l_pmid_42813280_c0"
+   ],
+   "answer": "Based on the provided text, postoperative intra-abdominal hypertension is defined as an intra-abdominal pressure greater than 12 mmHg. This condition occurs within 48 hours after the initiation of postoperative opioid analgesia in the intensive care unit."
+  },
+  "q21|small|3|off": {
+   "question_id": "q21",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42452951_c2",
+    "s_pmid_42452951_c0",
+    "s_pmid_42807121_c0"
+   ],
+   "answer": "Headache occurs in approximately 55-71% of individuals with primary mitochondrial diseases (PMDs). Among patients with PMDs, headache is one of the most frequent and disabling symptoms affecting them."
+  },
+  "q21|small|3|on": {
+   "question_id": "q21",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42452951_c2",
+    "s_pmid_42452951_c0",
+    "s_pmid_42807121_c0"
+   ],
+   "answer": "Headache occurs in approximately 55-71% of individuals with primary mitochondrial diseases (PMDs). Among patients with PMDs, headache is one of the most frequent and disabling symptoms affecting them."
+  },
+  "q21|small|8|off": {
+   "question_id": "q21",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42452951_c2",
+    "s_pmid_42452951_c0",
+    "s_pmid_42807121_c0",
+    "s_pmid_42807121_c1",
+    "s_pmid_42452951_c1",
+    "s_pmid_42807121_c2",
+    "s_pmid_42818964_c1",
+    "s_pmid_42541839_c1"
+   ],
+   "answer": "Headache is a very common symptom affecting approximately 55-71% of individuals with primary mitochondrial diseases (PMDs). It is one of the most frequent and disabling symptoms experienced by these patients."
+  },
+  "q21|small|8|on": {
+   "question_id": "q21",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42452951_c2",
+    "s_pmid_42452951_c0",
+    "s_pmid_42807121_c0",
+    "s_pmid_42807121_c1",
+    "s_pmid_42807121_c2",
+    "s_pmid_42452951_c1",
+    "s_pmid_42814704_c1",
+    "s_pmid_42462850_c0"
+   ],
+   "answer": "Headache is a very common and disabling symptom in individuals with primary mitochondrial diseases (PMDs), occurring in approximately 55-71% of patients. Compared to the general population, the prevalence of migraine in patients with PMD is up to three- to four-fold higher."
+  },
+  "q21|large|3|off": {
+   "question_id": "q21",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42452951_c0",
+    "l_pmid_42807121_c0",
+    "l_pmid_42814396_c0"
+   ],
+   "answer": "Headache is a very common symptom affecting approximately 55-71% of individuals with primary mitochondrial diseases. It is among the most frequent and disabling symptoms experienced by these patients."
+  },
+  "q21|large|3|on": {
+   "question_id": "q21",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42452951_c0",
+    "l_pmid_42807121_c0",
+    "l_pmid_42814704_c0"
+   ],
+   "answer": "Headache is a very frequent symptom in patients with primary mitochondrial diseases, occurring in approximately 55-71% of individuals. Migraine with or without aura is the most common type of headache disorder in these patients."
+  },
+  "q21|large|8|off": {
+   "question_id": "q21",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42452951_c0",
+    "l_pmid_42807121_c0",
+    "l_pmid_42814396_c0",
+    "l_pmid_42665697_c0",
+    "l_pmid_42807440_c0",
+    "l_pmid_42818964_c0",
+    "l_pmid_42541839_c0",
+    "l_pmid_42497573_c0"
+   ],
+   "answer": "Headache occurs in approximately 55-71% of individuals with primary mitochondrial diseases (PMDs). It is recognized as one of the most frequent and disabling symptoms affecting these patients."
+  },
+  "q21|large|8|on": {
+   "question_id": "q21",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42452951_c0",
+    "l_pmid_42807121_c0",
+    "l_pmid_42814704_c0",
+    "l_pmid_42462850_c0",
+    "l_pmid_42726340_c0",
+    "l_pmid_42419355_c0",
+    "l_pmid_42665697_c0",
+    "l_pmid_42497573_c0"
+   ],
+   "answer": "Headache occurs in approximately 55-71% of individuals with primary mitochondrial diseases. This makes it one of the most frequent and disabling symptoms affecting these patients."
+  },
+  "q23|small|3|off": {
+   "question_id": "q23",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42494239_c0",
+    "s_pmid_42741009_c1",
+    "s_pmid_42741009_c0"
+   ],
+   "answer": "Based on the provided context, the treatment response was defined as a \u2265 50% reduction in monthly migraine days from baseline to Weeks 13-24."
+  },
+  "q23|small|3|on": {
+   "question_id": "q23",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42741009_c1",
+    "s_pmid_42741009_c2",
+    "s_pmid_42494239_c0"
+   ],
+   "answer": "Based on the provided context, the treatment response was defined as a $\\ge$ 50% reduction in monthly migraine days from baseline to Weeks 13-24."
+  },
+  "q23|small|8|off": {
+   "question_id": "q23",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42494239_c0",
+    "s_pmid_42741009_c1",
+    "s_pmid_42741009_c0",
+    "s_pmid_42741009_c2",
+    "s_pmid_42661173_c1",
+    "s_pmid_42661173_c2",
+    "s_pmid_42798167_c1",
+    "s_pmid_42798167_c0"
+   ],
+   "answer": "Based on the provided context, the treatment response to erenumab was defined as a $\\ge$ 50% reduction in monthly migraine days (or monthly headache days) from baseline to Weeks 13-24."
+  },
+  "q23|small|8|on": {
+   "question_id": "q23",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42741009_c1",
+    "s_pmid_42741009_c2",
+    "s_pmid_42494239_c0",
+    "s_pmid_42661173_c1",
+    "s_pmid_42803592_c1",
+    "s_pmid_42661173_c2",
+    "s_pmid_42741009_c0",
+    "s_pmid_42798167_c1"
+   ],
+   "answer": "Based on the provided context, the treatment response to erenumab was defined as a $\\ge$ 50% reduction in monthly migraine days (or monthly headache days) from baseline to Weeks 13\u201324."
+  },
+  "q23|large|3|off": {
+   "question_id": "q23",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42741009_c0",
+    "l_pmid_42661173_c0",
+    "l_pmid_42494239_c0"
+   ],
+   "answer": "Based on the provided context, the definition of treatment response varied across studies. In the BIOMIGA trial, patients were stratified according to treatment response after a 3-month treatment cycle with erenumab [1]. In the retrospective single-center study, a clinically meaningful treatment response was defined as a $\\ge$ 50% reduction in monthly headache days (MHD) [2], while the REFORM study defined treatment response as a $\\ge$ 50% reduction in monthly migraine days from baseline to Weeks 13-24 [3]."
+  },
+  "q23|large|3|on": {
+   "question_id": "q23",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42741009_c0",
+    "l_pmid_42661173_c0",
+    "l_pmid_42808046_c0"
+   ],
+   "answer": "In the provided passages, the treatment response to erenumab is defined as achieving a $\\ge$ 50% reduction in monthly headache or migraine days."
+  },
+  "q23|large|8|off": {
+   "question_id": "q23",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42741009_c0",
+    "l_pmid_42661173_c0",
+    "l_pmid_42494239_c0",
+    "l_pmid_42808046_c0",
+    "l_pmid_42798167_c0",
+    "l_pmid_42662958_c0",
+    "l_pmid_42646581_c0",
+    "l_pmid_42553276_c0"
+   ],
+   "answer": "Based on the provided context, the treatment response to erenumab was defined as a $\\ge$ 50% reduction in monthly headache days or monthly migraine days from baseline."
+  },
+  "q23|large|8|on": {
+   "question_id": "q23",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42741009_c0",
+    "l_pmid_42661173_c0",
+    "l_pmid_42808046_c0",
+    "l_pmid_42494239_c0",
+    "l_pmid_42803592_c0",
+    "l_pmid_42798167_c0",
+    "l_pmid_42662958_c0",
+    "l_pmid_42813964_c0"
+   ],
+   "answer": "Based on the provided passages, the treatment response to erenumab was defined in the studies as a $\\ge$ 50% reduction in monthly headache days (MHD) or monthly migraine days from baseline."
+  },
+  "q24|small|3|off": {
+   "question_id": "q24",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42509911_c0",
+    "s_pmid_42509911_c1",
+    "s_pmid_42497573_c0"
+   ],
+   "answer": "After the third session of peripheral nerve blocks, the mean monthly migraine frequency decreased from 14.4 to 4.7 days."
+  },
+  "q24|small|3|on": {
+   "question_id": "q24",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42509911_c0",
+    "s_pmid_42509911_c1",
+    "s_pmid_42497573_c0"
+   ],
+   "answer": "After the third session of peripheral nerve blocks, the mean monthly migraine frequency decreased from 14.4 to 4.7 days."
+  },
+  "q24|small|8|off": {
+   "question_id": "q24",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42509911_c0",
+    "s_pmid_42509911_c1",
+    "s_pmid_42497573_c0",
+    "s_pmid_42492556_c1",
+    "s_pmid_42492556_c4",
+    "s_pmid_42492556_c2",
+    "s_pmid_42824170_c1",
+    "s_pmid_42616035_c1"
+   ],
+   "answer": "After the third session of peripheral nerve blocks, the mean monthly migraine frequency in adolescents with medically refractory migraine decreased from 14.4 to 4.7 days."
+  },
+  "q24|small|8|on": {
+   "question_id": "q24",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42509911_c0",
+    "s_pmid_42509911_c1",
+    "s_pmid_42497573_c0",
+    "s_pmid_42492556_c4",
+    "s_pmid_42492556_c1",
+    "s_pmid_42492556_c2",
+    "s_pmid_42824170_c1",
+    "s_pmid_42403198_c2"
+   ],
+   "answer": "After the third session of peripheral nerve blocks, the mean monthly migraine frequency decreased from 14.4 to 4.7 days."
+  },
+  "q24|large|3|off": {
+   "question_id": "q24",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42509911_c0",
+    "l_pmid_42497573_c0",
+    "l_pmid_42824170_c0"
+   ],
+   "answer": "Based on the provided context, the mean monthly migraine frequency in adolescents with medically refractory migraine decreased from 14.4 to 4.7 days after the third session of peripheral nerve blocks."
+  },
+  "q24|large|3|on": {
+   "question_id": "q24",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42509911_c0",
+    "l_pmid_42497573_c0",
+    "l_pmid_42824170_c0"
+   ],
+   "answer": "Based on the provided context, the mean monthly migraine frequency in adolescents with medically refractory migraine decreased from 14.4 to 4.7 days after the third session of peripheral nerve blocks."
+  },
+  "q24|large|8|off": {
+   "question_id": "q24",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42509911_c0",
+    "l_pmid_42497573_c0",
+    "l_pmid_42824170_c0",
+    "l_pmid_42802806_c0",
+    "l_pmid_42467349_c0",
+    "l_pmid_42818718_c0",
+    "l_pmid_42714090_c0",
+    "l_pmid_42403198_c0"
+   ],
+   "answer": "Based on the provided context, the mean monthly migraine frequency decreased from 14.4 to 4.7 days after the third session of peripheral nerve blocks in adolescents with medically refractory migraine."
+  },
+  "q24|large|8|on": {
+   "question_id": "q24",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42509911_c0",
+    "l_pmid_42497573_c0",
+    "l_pmid_42824170_c0",
+    "l_pmid_42802806_c0",
+    "l_pmid_42818718_c0",
+    "l_pmid_42714090_c0",
+    "l_pmid_42403198_c0",
+    "l_pmid_42467349_c0"
+   ],
+   "answer": "Based on the provided context, the mean monthly migraine frequency in adolescents with medically refractory migraine decreased from 14.4 to 4.7 days after the third session of peripheral nerve blocks."
+  },
+  "q26|small|3|off": {
+   "question_id": "q26",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42578005_c0",
+    "s_pmid_42621312_c0",
+    "s_pmid_42707444_c0"
+   ],
+   "answer": "Based on the provided context, the primary outcomes evaluated in the meta-analysis of non-invasive vagus nerve stimulation for migraine were monthly headache days, monthly acute medication use, and headache pain intensity."
+  },
+  "q26|small|3|on": {
+   "question_id": "q26",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42578005_c0",
+    "s_pmid_42707444_c0",
+    "s_pmid_42811900_c1"
+   ],
+   "answer": "The primary outcomes evaluated in the meta-analysis of non-invasive vagus nerve stimulation for migraine were monthly headache days, monthly acute medication use, and headache pain intensity."
+  },
+  "q26|small|8|off": {
+   "question_id": "q26",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42578005_c0",
+    "s_pmid_42621312_c0",
+    "s_pmid_42707444_c0",
+    "s_pmid_42811900_c1",
+    "s_pmid_42497573_c0",
+    "s_pmid_42818718_c1",
+    "s_pmid_42818718_c2",
+    "s_pmid_42714090_c0"
+   ],
+   "answer": "The primary outcomes evaluated in the meta-analysis of non-invasive vagus nerve stimulation for migraine were monthly headache days, monthly acute medication use, and headache pain intensity."
+  },
+  "q26|small|8|on": {
+   "question_id": "q26",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42578005_c0",
+    "s_pmid_42707444_c0",
+    "s_pmid_42811900_c1",
+    "s_pmid_42818718_c1",
+    "s_pmid_42497573_c0",
+    "s_pmid_42818718_c2",
+    "s_pmid_42714090_c0",
+    "s_pmid_42621312_c0"
+   ],
+   "answer": "Based on the provided context, the primary outcomes evaluated in the meta-analysis of non-invasive vagus nerve stimulation for migraine were monthly headache days, monthly acute medication use, and headache pain intensity."
+  },
+  "q26|large|3|off": {
+   "question_id": "q26",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42578005_c0",
+    "l_pmid_42811900_c0",
+    "l_pmid_42818718_c0"
+   ],
+   "answer": "Based on the provided context, the primary outcomes evaluated in the meta-analysis of non-invasive vagus nerve stimulation for migraine were monthly headache days, monthly acute medication use, and headache pain intensity."
+  },
+  "q26|large|3|on": {
+   "question_id": "q26",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42578005_c0",
+    "l_pmid_42811900_c0",
+    "l_pmid_42818718_c0"
+   ],
+   "answer": "Based on the provided context, the primary outcomes evaluated in the meta-analysis of non-invasive vagus nerve stimulation for migraine were monthly headache days, monthly acute medication use, and headache pain intensity."
+  },
+  "q26|large|8|off": {
+   "question_id": "q26",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42578005_c0",
+    "l_pmid_42811900_c0",
+    "l_pmid_42818718_c0",
+    "l_pmid_42509911_c0",
+    "l_pmid_42497573_c0",
+    "l_pmid_42714090_c0",
+    "l_pmid_42621312_c0",
+    "l_pmid_42412005_c0"
+   ],
+   "answer": "Based on the provided text, the primary outcomes evaluated in the meta-analysis of non-invasive vagus nerve stimulation for migraine were monthly headache days, monthly acute medication use, and headache pain intensity."
+  },
+  "q26|large|8|on": {
+   "question_id": "q26",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42578005_c0",
+    "l_pmid_42811900_c0",
+    "l_pmid_42818718_c0",
+    "l_pmid_42714090_c0",
+    "l_pmid_42509911_c0",
+    "l_pmid_42497573_c0",
+    "l_pmid_42412005_c0",
+    "l_pmid_42707444_c0"
+   ],
+   "answer": "Based on the provided context, the primary outcomes evaluated in the meta-analysis of non-invasive vagus nerve stimulation for migraine were monthly headache days, monthly acute medication use, and headache pain intensity."
+  },
+  "q32|small|3|off": {
+   "question_id": "q32",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42801134_c0",
+    "s_pmid_42805332_c0",
+    "s_pmid_42801134_c1"
+   ],
+   "answer": "Patients with poorly controlled diabetes mellitus are at particularly high risk for severe Fournier's gangrene and its complications."
+  },
+  "q32|small|3|on": {
+   "question_id": "q32",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42805332_c0",
+    "s_pmid_42801134_c0",
+    "s_pmid_42801134_c1"
+   ],
+   "answer": "Patients with poorly controlled diabetes mellitus are at particularly high risk for severe Fournier's gangrene and its complications. Additionally, type 2 diabetes mellitus is specifically identified as a predisposing risk factor in these cases."
+  },
+  "q32|small|8|off": {
+   "question_id": "q32",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42801134_c0",
+    "s_pmid_42805332_c0",
+    "s_pmid_42801134_c1",
+    "s_pmid_42811551_c2",
+    "s_pmid_42811551_c1",
+    "s_pmid_42813319_c1",
+    "s_pmid_42717664_c0",
+    "s_pmid_42812092_c3"
+   ],
+   "answer": "Patients with poorly controlled diabetes mellitus are at particularly high risk for severe Fournier's gangrene and its complications."
+  },
+  "q32|small|8|on": {
+   "question_id": "q32",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42805332_c0",
+    "s_pmid_42801134_c0",
+    "s_pmid_42801134_c1",
+    "s_pmid_42811551_c1",
+    "s_pmid_42800718_c2",
+    "s_pmid_42804882_c0",
+    "s_pmid_42813764_c0",
+    "s_pmid_42811551_c0"
+   ],
+   "answer": "Patients with poorly controlled diabetes mellitus are at particularly high risk for severe Fournier's gangrene and its complications."
+  },
+  "q32|large|3|off": {
+   "question_id": "q32",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42801134_c0",
+    "l_pmid_42805332_c0",
+    "l_pmid_42811551_c0"
+   ],
+   "answer": "Patients with poorly controlled diabetes mellitus are at particularly high risk for severe Fournier's gangrene and its complications."
+  },
+  "q32|large|3|on": {
+   "question_id": "q32",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42801134_c0",
+    "l_pmid_42805332_c0",
+    "l_pmid_42811551_c0"
+   ],
+   "answer": "Patients with poorly controlled diabetes mellitus are at particularly high risk for severe Fournier's gangrene and its complications."
+  },
+  "q32|large|8|off": {
+   "question_id": "q32",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42801134_c0",
+    "l_pmid_42805332_c0",
+    "l_pmid_42811551_c0",
+    "l_pmid_42717664_c0",
+    "l_pmid_42813319_c0",
+    "l_pmid_42733757_c0",
+    "l_pmid_42800990_c0",
+    "l_pmid_42805298_c0"
+   ],
+   "answer": "Patients with poorly controlled diabetes mellitus are at particularly high risk for severe Fournier's gangrene and its complications."
+  },
+  "q32|large|8|on": {
+   "question_id": "q32",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42801134_c0",
+    "l_pmid_42805332_c0",
+    "l_pmid_42811551_c0",
+    "l_pmid_42804882_c0",
+    "l_pmid_42813764_c0",
+    "l_pmid_42819212_c0",
+    "l_pmid_42812092_c0",
+    "l_pmid_42813319_c0"
+   ],
+   "answer": "Based on the provided passages, patients with poorly controlled diabetes mellitus are at particularly high risk for severe Fournier's gangrene and its complications."
+  },
+  "q35|small|3|off": {
+   "question_id": "q35",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42825450_c0",
+    "s_pmid_42825923_c0",
+    "s_pmid_42810372_c0"
+   ],
+   "answer": "Not stated in the provided context."
+  },
+  "q35|small|3|on": {
+   "question_id": "q35",
+   "chunk_size": "small",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42810372_c0",
+    "s_pmid_42825450_c0",
+    "s_pmid_42825923_c0"
+   ],
+   "answer": "Not stated in the provided context."
+  },
+  "q35|small|8|off": {
+   "question_id": "q35",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "s_pmid_42825450_c0",
+    "s_pmid_42825923_c0",
+    "s_pmid_42810372_c0",
+    "s_pmid_42803238_c0",
+    "s_pmid_42819534_c1",
+    "s_pmid_42820639_c0",
+    "s_pmid_42810354_c0",
+    "s_pmid_42809365_c0"
+   ],
+   "answer": "Not stated in the provided context."
+  },
+  "q35|small|8|on": {
+   "question_id": "q35",
+   "chunk_size": "small",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "s_pmid_42810372_c0",
+    "s_pmid_42825450_c0",
+    "s_pmid_42825923_c0",
+    "s_pmid_42803238_c0",
+    "s_pmid_42820639_c0",
+    "s_pmid_42810354_c0",
+    "s_pmid_42809365_c0",
+    "s_pmid_42808200_c0"
+   ],
+   "answer": "Not stated in the provided context."
+  },
+  "q35|large|3|off": {
+   "question_id": "q35",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42825923_c0",
+    "l_pmid_42825450_c0",
+    "l_pmid_42810354_c0"
+   ],
+   "answer": "Based on the provided context, the two medications (or classes of therapies) discussed for the management of type 2 diabetes are sodium-glucose cotransporter 2 (SGLT2) inhibitors and glucagon-like peptide-1 (GLP-1)-based therapies."
+  },
+  "q35|large|3|on": {
+   "question_id": "q35",
+   "chunk_size": "large",
+   "top_k": 3,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42825923_c0",
+    "l_pmid_42825450_c0",
+    "l_pmid_42810354_c0"
+   ],
+   "answer": "Based on the provided context, the two medications (or classes of therapies) discussed for the management of type 2 diabetes are sodium-glucose cotransporter 2 (SGLT2) inhibitors and glucagon-like peptide-1 (GLP-1)-based therapies."
+  },
+  "q35|large|8|off": {
+   "question_id": "q35",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "off",
+   "context_ids": [
+    "l_pmid_42825923_c0",
+    "l_pmid_42825450_c0",
+    "l_pmid_42810354_c0",
+    "l_pmid_42803238_c0",
+    "l_pmid_42819534_c0",
+    "l_pmid_42808200_c0",
+    "l_pmid_42805981_c0",
+    "l_pmid_42814374_c0"
+   ],
+   "answer": "Based on the provided passages, the medications discussed for the management of type 2 diabetes are sodium-glucose cotransporter 2 (SGLT2) inhibitors and glucagon-like peptide-1 (GLP-1)-based therapies."
+  },
+  "q35|large|8|on": {
+   "question_id": "q35",
+   "chunk_size": "large",
+   "top_k": 8,
+   "rewrite": "on",
+   "context_ids": [
+    "l_pmid_42825923_c0",
+    "l_pmid_42825450_c0",
+    "l_pmid_42810354_c0",
+    "l_pmid_42803238_c0",
+    "l_pmid_42808200_c0",
+    "l_pmid_42805981_c0",
+    "l_pmid_42814374_c0",
+    "l_pmid_42731182_c0"
+   ],
+   "answer": "Based on the provided context, the two therapies discussed for the management of type 2 diabetes are sodium-glucose cotransporter 2 (SGLT2) inhibitors and glucagon-like peptide-1 (GLP-1)-based therapies."
+  }
+ }
+}

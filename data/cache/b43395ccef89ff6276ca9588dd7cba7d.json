@@ -1,0 +1,1 @@
+{"model": "gemini-3.5-flash-lite", "prompt_hash": "b43395ccef89ff6276ca9588dd7cba7d", "text": "```json\n{\n  \"claims\": [\n    {\n      \"claim\": \"Eligible studies must include children and adolescents with asthma receiving ICS for at least 6 months.\",\n      \"verdict\": \"supported\"\n    }\n  ]\n}\n```"}

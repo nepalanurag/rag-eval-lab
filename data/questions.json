@@ -1,0 +1,370 @@
+{
+ "meta": {
+  "seed": 20261002,
+  "n_drafted": 56,
+  "n_verified_kept": 52,
+  "n_final": 40
+ },
+ "questions": [
+  {
+   "question_id": "q01",
+   "topic": "asthma_inhaler_therapy",
+   "source_doc_id": "pmid_42486206",
+   "source_chunk_id_small": "s_pmid_42486206_c0",
+   "question": "Why was DSPE-PEG chosen among various PEGylated lipids for the liposomal formulation?",
+   "reference_answer": "DSPE-PEG was selected because its amine function maximizes indacaterol encapsulation through amine-phosphate interactions, and its 18-carbon chain provides superior biocompatibility with macrophages compared to C14 and C16 analogs.",
+   "evidence": "Among various PEGylated lipids, DSPE-PEG was chosen because its amine function maximizes IND encapsulation via amine-phosphate interactions and its 18-carbon chain exhibited superior biocompatibility with macrophages compared to C14 and C16 analogs."
+  },
+  {
+   "question_id": "q02",
+   "topic": "asthma_inhaler_therapy",
+   "source_doc_id": "pmid_42503166",
+   "source_chunk_id_small": "s_pmid_42503166_c0",
+   "question": "What benefits do pulmonary rehabilitation programs offer when combined with structured exercise, maintenance interventions, and telemonitoring?",
+   "reference_answer": "When combined with structured exercise programs, maintenance interventions, and telemonitoring systems, pulmonary rehabilitation can significantly improve a patient's exercise tolerance, symptom control, and health-related quality of life.",
+   "evidence": "Pulmonary rehabilitation, particularly when combined with structured exercise programs, maintenance interventions, and telemonitoring systems, can significantly improve exercise tolerance, symptom control, and health-related quality of life."
+  },
+  {
+   "question_id": "q03",
+   "topic": "asthma_inhaler_therapy",
+   "source_doc_id": "pmid_42530807",
+   "source_chunk_id_small": "s_pmid_42530807_c0",
+   "question": "What was the ratio of mometasone to magnesium stearate maintained in all of the evaluated formulations?",
+   "reference_answer": "In all of the tested formulations, the ratio of mometasone to magnesium stearate (MgSt) was kept at 99:1.",
+   "evidence": "In all formulations, the mometasone:MgSt ratio was maintained at 99:1."
+  },
+  {
+   "question_id": "q04",
+   "topic": "asthma_inhaler_therapy",
+   "source_doc_id": "pmid_42562590",
+   "source_chunk_id_small": "s_pmid_42562590_c0",
+   "question": "What was the daily dosage and maximum duration of mitiperstat evaluated in the phase 2a trial for COPD?",
+   "reference_answer": "Participants in the trial were evaluated with a daily dose of 5 mg of mitiperstat for a duration of up to 24 weeks.",
+   "evidence": "This phase 2a, randomised, placebo-controlled, double-blind, parallel-arm, event-driven trial evaluated the efficacy and safety of mitiperstat 5 mg daily up to 24 weeks (NCT05492877)."
+  },
+  {
+   "question_id": "q05",
+   "topic": "asthma_inhaler_therapy",
+   "source_doc_id": "pmid_42578515",
+   "source_chunk_id_small": "s_pmid_42578515_c0",
+   "question": "What specific materials were used in the therapeutic play intervention given to the children before nebulization?",
+   "reference_answer": "The therapeutic play intervention utilized toys, masks, and stickers for 10 to 15 minutes before the nebulization procedure.",
+   "evidence": "The intervention group received 10-15 min of therapeutic play (toy, mask, stickers) before nebulization; controls received routine care."
+  },
+  {
+   "question_id": "q06",
+   "topic": "asthma_inhaler_therapy",
+   "source_doc_id": "pmid_42592142",
+   "source_chunk_id_small": "s_pmid_42592142_c0",
+   "question": "What clinical improvements were observed in the 31-year-old man with severe asthma after 12 months of tezepelumab treatment?",
+   "reference_answer": "After 12 months of tezepelumab treatment, the patient achieved normalization of his symptoms, biomarkers, lung function, and flow-volume loop morphology, and experienced no further exacerbations.",
+   "evidence": "After 12 months, the patient achieved normalization of symptoms, biomarkers, lung function, and flow-volume loop morphology without any further exacerbations."
+  },
+  {
+   "question_id": "q07",
+   "topic": "asthma_inhaler_therapy",
+   "source_doc_id": "pmid_42605492",
+   "source_chunk_id_small": "s_pmid_42605492_c0",
+   "question": "How did the dupilumab-treated patient respond to therapy over three months?",
+   "reference_answer": "The patient treated with dupilumab showed both symptomatic and spirometric improvement over the course of three months.",
+   "evidence": "The dupilumab-treated case demonstrated symptomatic and spirometric improvement over three months"
+  },
+  {
+   "question_id": "q08",
+   "topic": "asthma_inhaler_therapy",
+   "source_doc_id": "pmid_42733757",
+   "source_chunk_id_small": "s_pmid_42733757_c0",
+   "question": "What was the primary outcome measured in the TIPP trial evaluating tiotropium for preschool asthma?",
+   "reference_answer": "The primary outcome evaluated in the trial was the time to the first severe asthma exacerbation.",
+   "evidence": "The primary outcome was time to"
+  },
+  {
+   "question_id": "q09",
+   "topic": "asthma_inhaler_therapy",
+   "source_doc_id": "pmid_42755259",
+   "source_chunk_id_small": "s_pmid_42755259_c0",
+   "question": "What are the principal drivers of adverse maternal and fetal outcomes in pregnant women with asthma?",
+   "reference_answer": "Poor asthma control and exacerbations are the main causes of adverse outcomes for both the mother and the fetus during pregnancy.",
+   "evidence": "During pregnancy, poor asthma control and exacerbations are the principal drivers of adverse maternal and fetal outcomes, including hypertensive disorders, preterm birth, fetal growth restriction, and neonatal morbidity."
+  },
+  {
+   "question_id": "q10",
+   "topic": "asthma_inhaler_therapy",
+   "source_doc_id": "pmid_42807464",
+   "source_chunk_id_small": "s_pmid_42807464_c0",
+   "question": "What is the minimum duration of inhaled corticosteroid (ICS) therapy required for studies to be eligible in this systematic review of children with asthma?",
+   "reference_answer": "Eligible studies in the systematic review needed to include children and adolescents with asthma who received inhaled corticosteroids for a minimum of 6 months.",
+   "evidence": "Eligible studies included children and adolescents with asthma receiving ICS for at least 6 months."
+  },
+  {
+   "question_id": "q11",
+   "topic": "hypertension_management",
+   "source_doc_id": "pmid_42799449",
+   "source_chunk_id_small": "s_pmid_42799449_c0",
+   "question": "How is postoperative intra-abdominal hypertension defined in this study?",
+   "reference_answer": "Postoperative intra-abdominal hypertension is defined as an intra-abdominal pressure greater than 12 mmHg occurring within 48 hours after starting postoperative opioid analgesia in the ICU.",
+   "evidence": "The primary outcome was postoperative IAH, defined as an intra-abdominal pressure >12 mmHg occurring within 48 h after initiation of postoperative opioid analgesia in the ICU."
+  },
+  {
+   "question_id": "q12",
+   "topic": "hypertension_management",
+   "source_doc_id": "pmid_42799462",
+   "source_chunk_id_small": "s_pmid_42799462_c0",
+   "question": "What mental illnesses are people with multimorbidity at an increased risk of developing?",
+   "reference_answer": "Individuals with multimorbidity have an elevated risk of developing serious mental illnesses, specifically major depressive disorder and anxiety disorders.",
+   "evidence": "People with multimorbidity are at an increased risk of developing serious mental illnesses such as major depressive disorder, and anxiety disorders."
+  },
+  {
+   "question_id": "q13",
+   "topic": "hypertension_management",
+   "source_doc_id": "pmid_42808406",
+   "source_chunk_id_small": "s_pmid_42808406_c0",
+   "question": "What proportion of adult cancer patients enrolled in the study had diabetes?",
+   "reference_answer": "Nearly a third of the participants in the study, specifically 32.8%, were diagnosed with diabetes.",
+   "evidence": "Among participants, 32.8% had diabetes and 38.4%"
+  },
+  {
+   "question_id": "q14",
+   "topic": "hypertension_management",
+   "source_doc_id": "pmid_42813319",
+   "source_chunk_id_small": "s_pmid_42813319_c0",
+   "question": "What was the median cardiovascular risk score among the foreign national incarcerated men evaluated in the Istanbul prison study?",
+   "reference_answer": "The median cardiovascular risk score among the participants was 6%, with the majority (74.6%) classified as low-risk.",
+   "evidence": "The median cardiovascular risk score was 6% (range: 1-52%), 74.6% classified as low-risk, 21.0% as moderate-risk, and 4.4% as high or very high-risk."
+  },
+  {
+   "question_id": "q15",
+   "topic": "hypertension_management",
+   "source_doc_id": "pmid_42813477",
+   "source_chunk_id_small": "s_pmid_42813477_c0",
+   "question": "How was chronic kidney disease (CKD) status operationally defined in this study among patients with type 2 diabetes?",
+   "reference_answer": "Patients were classified as having CKD if their registry-derived estimated glomerular filtration rate (eGFR), calculated using the CKD-EPI formula, was less than 60 mL/min/1.73 m\u00b2.",
+   "evidence": "Patients were operationally classified as having CKD if the available registry-derived eGFR was <60 mL/min/1.73 m\u00b2."
+  },
+  {
+   "question_id": "q16",
+   "topic": "hypertension_management",
+   "source_doc_id": "pmid_42819534",
+   "source_chunk_id_small": "s_pmid_42819534_c0",
+   "question": "What is considered to be the core pathology of age-related dementias like Alzheimer's disease?",
+   "reference_answer": "The core pathology of age-related dementias is microvascular pathology, which involves small, symptomless bleeds from cerebral capillaries that are accelerated by age-related hypertension.",
+   "evidence": "Evidence has grown that the core pathology of age-related dementias, including Alzheimer's disease, is microvascular-small, symptomless bleeds from cerebral capillaries, accelerated by the hypertension of age."
+  },
+  {
+   "question_id": "q17",
+   "topic": "hypertension_management",
+   "source_doc_id": "pmid_42820204",
+   "source_chunk_id_small": "s_pmid_42820204_c0",
+   "question": "What is the treatment of choice for Coarctation of Aorta?",
+   "reference_answer": "Endovascular Coarctoplasty with stenting is considered the treatment of choice for Coarctation of Aorta.",
+   "evidence": "Endovascular Coarctoplasty (CoAP) with stenting is the treatment of choice in Coarctation of Aorta (CoA)."
+  },
+  {
+   "question_id": "q18",
+   "topic": "hypertension_management",
+   "source_doc_id": "pmid_42820217",
+   "source_chunk_id_small": "s_pmid_42820217_c0",
+   "question": "How was the Stanford type B aortic dissection managed in the 37-year-old male who developed it following aortic coarctation stenting?",
+   "reference_answer": "The aortic dissection was managed conservatively with close monitoring and blood pressure control because there were no signs of end-organ malperfusion.",
+   "evidence": "As there were no signs of end-organ malperfusion, conservative management was pursued with close monitoring and blood pressure control."
+  },
+  {
+   "question_id": "q19",
+   "topic": "hypertension_management",
+   "source_doc_id": "pmid_42823537",
+   "source_chunk_id_small": "s_pmid_42823537_c0",
+   "question": "How is telemonitoring evolving beyond simple blood pressure surveillance within the framework of digital hypertension?",
+   "reference_answer": "Telemonitoring is evolving in three major domains: integrating multidimensional health information (like physical activity and sleep) with longitudinal BP measurements, utilizing physician-support technologies (such as AI analytics and clinical decision-support) to interpret data and aid clinical interventions, and employing patient-support technologies (like digital therapeutics) for continuous behavioral interventions and self-management support.",
+   "evidence": "Within the framework of digital hypertension, telemonitoring is evolving beyond simple BP surveillance in three major domains. First, advances in data monitoring enable the integration of multidimensional health information, including physical activity, sleep patterns, medication adherence, and environmental exposures, with longitudinal BP measurements. Second, physician-support technologies, such as automated data integration, clinical decision-support systems, and artificial intelligence-based analytics, facilitate the interpretation of large-scale patient-generated data and support timely clinical intervention. Third, patient-support technologies, including digital therapeutics, provide continuous behavioral interventions and self-management support"
+  },
+  {
+   "question_id": "q20",
+   "topic": "hypertension_management",
+   "source_doc_id": "pmid_42824399",
+   "source_chunk_id_small": "s_pmid_42824399_c0",
+   "question": "What rare complication did the 29-year-old woman develop during the thyrotoxic phase of subacute thyroiditis?",
+   "reference_answer": "The patient developed intracranial hypertension as a complication during the thyrotoxic phase of subacute thyroiditis, presenting with symptoms such as headache, nausea, vomiting, fever, and later bilateral visual blurring and pulsatile tinnitus.",
+   "evidence": "We report the case of a 29-year-old woman who developed IH during the thyrotoxic phase of subacute thyroiditis, temporally related to dental manipulation."
+  },
+  {
+   "question_id": "q21",
+   "topic": "migraine_prevention",
+   "source_doc_id": "pmid_42452951",
+   "source_chunk_id_small": "s_pmid_42452951_c0",
+   "question": "How common is headache as a symptom in patients with primary mitochondrial diseases?",
+   "reference_answer": "Headache is a frequent and disabling symptom that affects approximately 55% to 71% of individuals with primary mitochondrial diseases.",
+   "evidence": "Among the most frequent and disabling symptoms affecting patients with PMDs, headache occurs in approximately 55-71% of individuals."
+  },
+  {
+   "question_id": "q22",
+   "topic": "migraine_prevention",
+   "source_doc_id": "pmid_42455027",
+   "source_chunk_id_small": "s_pmid_42455027_c0",
+   "question": "How was preventive response defined in this study evaluating migraine treatment?",
+   "reference_answer": "Preventive response was defined as a reduction of 50% or more in triptan dispensations following the first preventive dispensation.",
+   "evidence": "Preventive response was defined as \u226550% reduction in triptan dispensations after first preventive dispensation, and triptan retention as \u22653 dispensations."
+  },
+  {
+   "question_id": "q23",
+   "topic": "migraine_prevention",
+   "source_doc_id": "pmid_42494239",
+   "source_chunk_id_small": "s_pmid_42494239_c0",
+   "question": "How was the treatment response to erenumab defined in the study?",
+   "reference_answer": "The treatment response was defined as a reduction of 50% or more in monthly migraine days from the baseline to Weeks 13 through 24.",
+   "evidence": "Treatment response was defined as a \u2265 50% reduction in monthly migraine days from baseline to Weeks 13-24."
+  },
+  {
+   "question_id": "q24",
+   "topic": "migraine_prevention",
+   "source_doc_id": "pmid_42509911",
+   "source_chunk_id_small": "s_pmid_42509911_c0",
+   "question": "How did the mean monthly migraine frequency change after the third session of peripheral nerve blocks in adolescents with medically refractory migraine?",
+   "reference_answer": "Following the third session of peripheral nerve blocks, the mean monthly migraine frequency decreased significantly from 14.4 days to 4.7 days.",
+   "evidence": "The results revealed that the mean monthly migraine frequency decreased from 14.4 to 4.7 days after the third session and the mean VAS score decreased from 7.7 to 3.3."
+  },
+  {
+   "question_id": "q25",
+   "topic": "migraine_prevention",
+   "source_doc_id": "pmid_42522145",
+   "source_chunk_id_small": "s_pmid_42522145_c0",
+   "question": "What dosage of sodium valproate was used for the prophylactic treatment of patients with benign recurrent vertigo or vestibular migraine in the study?",
+   "reference_answer": "Patients received a prophylactic treatment dosage ranging from 400 to 500 mg per day of sodium valproate.",
+   "evidence": "In this retrospective case series, we evaluated 84 patients with BRV or vestibular migraine (VM) who received prophylactic treatment with sodium valproate (400-500 mg/day) between April 2022 and July 2024."
+  },
+  {
+   "question_id": "q26",
+   "topic": "migraine_prevention",
+   "source_doc_id": "pmid_42578005",
+   "source_chunk_id_small": "s_pmid_42578005_c0",
+   "question": "What primary outcomes were evaluated in the meta-analysis of non-invasive vagus nerve stimulation for migraine?",
+   "reference_answer": "The primary outcomes evaluated in the meta-analysis were monthly headache days, monthly acute medication use, and headache pain intensity.",
+   "evidence": "The primary outcomes were monthly headache days, monthly acute medication use, and headache pain intensity."
+  },
+  {
+   "question_id": "q27",
+   "topic": "migraine_prevention",
+   "source_doc_id": "pmid_42629756",
+   "source_chunk_id_small": "s_pmid_42629756_c0",
+   "question": "How did anti-seizure medication use compare between participants in the highest dietary inflammatory index tertile and those in the intermediate tertile?",
+   "reference_answer": "Participants in the highest dietary inflammatory index tertile (T3) had significantly higher anti-seizure medication use compared to those in the intermediate tertile (T2).",
+   "evidence": "Participants in the highest DII tertile (T3) had significantly higher ASM use compared to the intermediate tertile (T2) (OR = 1.63;"
+  },
+  {
+   "question_id": "q28",
+   "topic": "migraine_prevention",
+   "source_doc_id": "pmid_42645743",
+   "source_chunk_id_small": "s_pmid_42645743_c0",
+   "question": "What was the primary endpoint of the phase 2/3 study assessing oral zavegepant for chronic migraine prevention?",
+   "reference_answer": "The primary endpoint was the mean change from the observation phase in the number of migraine days per month during the double-blind treatment phase.",
+   "evidence": "The primary endpoint was mean change from the OP in number of migraine days/month in the DBT phase."
+  },
+  {
+   "question_id": "q29",
+   "topic": "migraine_prevention",
+   "source_doc_id": "pmid_42713548",
+   "source_chunk_id_small": "s_pmid_42713548_c0",
+   "question": "How many patients were included in the analysis of dual CGRP-targeting therapies for migraines?",
+   "reference_answer": "The analysis included a total of 89 patients who were concomitantly using a preventive CGRP-targeting regimen and a gepant for acute migraine treatment.",
+   "evidence": "The analysis included 89 patients."
+  },
+  {
+   "question_id": "q30",
+   "topic": "migraine_prevention",
+   "source_doc_id": "pmid_42792865",
+   "source_chunk_id_small": "s_pmid_42792865_c0",
+   "question": "How many adult patients with high-frequency episodic migraine or chronic migraine were included in the multicenter retrospective observational study in Romania?",
+   "reference_answer": "The study included a total of 113 adult patients, consisting of 38 with high-frequency episodic migraine and 75 with chronic migraine.",
+   "evidence": "We conducted a multicenter retrospective observational cohort study including 113 adults with HFEM (n = 38) or CM (n = 75) who initiated treatment with galcanezumab, erenumab, fremanezumab, or eptinezumab at specialized headache centers in Romania."
+  },
+  {
+   "question_id": "q31",
+   "topic": "type_2_diabetes_treatment",
+   "source_doc_id": "pmid_42798868",
+   "source_chunk_id_small": "s_pmid_42798868_c0",
+   "question": "How did the patient's glycemic control change during the eucortisolemic phases in cyclic Cushing syndrome?",
+   "reference_answer": "During the eucortisolemic phases, the patient's glycemic control rapidly returned to baseline.",
+   "evidence": "followed by eucortisolemic phases during which his glycemic control rapidly returned to baseline."
+  },
+  {
+   "question_id": "q32",
+   "topic": "type_2_diabetes_treatment",
+   "source_doc_id": "pmid_42801134",
+   "source_chunk_id_small": "s_pmid_42801134_c0",
+   "question": "What underlying medical condition puts patients at particularly high risk for severe Fournier's gangrene and its complications?",
+   "reference_answer": "Patients with poorly controlled diabetes mellitus are at a particularly high risk for developing severe disease and complications from Fournier's gangrene.",
+   "evidence": "Patients with poorly controlled diabetes mellitus are at particularly high risk for severe disease and complications."
+  },
+  {
+   "question_id": "q33",
+   "topic": "type_2_diabetes_treatment",
+   "source_doc_id": "pmid_42803514",
+   "source_chunk_id_small": "s_pmid_42803514_c0",
+   "question": "What is montbretin A (MbA) being developed to treat?",
+   "reference_answer": "Montbretin A (MbA) is currently under development as an improved treatment for Type 2 diabetes.",
+   "evidence": "The plant-derived specialized metabolite montbretin A (MbA) is under development as an improved treatment for Type 2 diabetes, a worldwide epidemic."
+  },
+  {
+   "question_id": "q34",
+   "topic": "type_2_diabetes_treatment",
+   "source_doc_id": "pmid_42806614",
+   "source_chunk_id_small": "s_pmid_42806614_c0",
+   "question": "Is SGLT2 inhibitor initiation associated with an increased risk of urinary tract infection compared to DPP-4 inhibitors in patients with type 2 diabetes and chronic kidney disease?",
+   "reference_answer": "No, SGLT2 inhibitor initiation is not associated with an increased risk of urinary tract infection compared to DPP-4 inhibitor initiation in this patient population.",
+   "evidence": "Compared with DPP-4i initiation, SGLT2i initiation was not associated with increased UTI risk (HR, 0.99; 95% CI, 0.83-1.17);"
+  },
+  {
+   "question_id": "q35",
+   "topic": "type_2_diabetes_treatment",
+   "source_doc_id": "pmid_42808550",
+   "source_chunk_id_small": "s_pmid_42808550_c0",
+   "question": "What two medications are discussed for the management of type 2 diabetes in the passage?",
+   "reference_answer": "The medications discussed for type 2 diabetes management are tirzepatide and semaglutide.",
+   "evidence": "Tirzepatide, a dual glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 (GLP-1) receptor agonist (RA), and semaglutide, a GLP-1 RA, are approved for type 2 diabetes (T2D) management."
+  },
+  {
+   "question_id": "q36",
+   "topic": "type_2_diabetes_treatment",
+   "source_doc_id": "pmid_42813478",
+   "source_chunk_id_small": "s_pmid_42813478_c0",
+   "question": "How did age affect physical functioning and general health scores among patients with recurrent diabetic foot ulcers?",
+   "reference_answer": "Older adults aged 60 years or older had significantly lower physical functioning and general health scores compared to other age groups.",
+   "evidence": "Older adults (\u226560 years) had significantly lower physical functioning and general health scores (p < 0.05)."
+  },
+  {
+   "question_id": "q37",
+   "topic": "type_2_diabetes_treatment",
+   "source_doc_id": "pmid_42814765",
+   "source_chunk_id_small": "s_pmid_42814765_c0",
+   "question": "How many adults with type 2 diabetes or prediabetes participated in the retrospective cohort study?",
+   "reference_answer": "A total of 1436 adults diagnosed with type 2 diabetes or prediabetes were included in the retrospective cohort study.",
+   "evidence": "We conducted a retrospective cohort study of 1436 adults with type 2 diabetes or prediabetes enrolled in the Unika Health program between 2019 and 2024."
+  },
+  {
+   "question_id": "q38",
+   "topic": "type_2_diabetes_treatment",
+   "source_doc_id": "pmid_42816448",
+   "source_chunk_id_small": "s_pmid_42816448_c0",
+   "question": "How many randomized controlled trials and participants were included in the meta-analysis evaluating the effects of a low-carbohydrate diet combined with exercise on adults with type 2 diabetes?",
+   "reference_answer": "The meta-analysis included a total of 24 randomized controlled trials involving 2,038 participants.",
+   "evidence": "Twenty-four RCTs involving 2038 participants were included."
+  },
+  {
+   "question_id": "q39",
+   "topic": "type_2_diabetes_treatment",
+   "source_doc_id": "pmid_42824654",
+   "source_chunk_id_small": "s_pmid_42824654_c0",
+   "question": "Does type 2 diabetes mellitus significantly affect acute levodopa responsiveness in Parkinson's disease patients?",
+   "reference_answer": "No, acute levodopa responsiveness does not significantly differ among patients with normal glycemic status, prediabetes, or type 2 diabetes mellitus.",
+   "evidence": "Levodopa responsiveness did not differ significantly among the three glycemic groups."
+  },
+  {
+   "question_id": "q40",
+   "topic": "type_2_diabetes_treatment",
+   "source_doc_id": "pmid_42825089",
+   "source_chunk_id_small": "s_pmid_42825089_c0",
+   "question": "How was early initiation of statin treatment defined following a type 2 diabetes diagnosis in this study?",
+   "reference_answer": "Early initiation of statin treatment was defined as starting the medication within one year or less (<= 1 year) following the diagnosis of type 2 diabetes.",
+   "evidence": "iii) early statin (start at \u2264 1 year)."
+  }
+ ]
+}
