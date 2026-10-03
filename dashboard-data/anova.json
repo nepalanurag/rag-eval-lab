@@ -1,0 +1,261 @@
+{
+  "note": "Repeated-measures ANOVA (questions as blocks) per metric, plus three planned paired contrasts per metric. Nothing reached p < 0.05: the honest null result.",
+  "n_questions": 40,
+  "metrics": [
+    {
+      "metric": "recall_at_k",
+      "anova": [
+        {
+          "factor": "chunk_size",
+          "F": 0.89,
+          "p": 0.3523,
+          "partial_eta2": 0.022
+        },
+        {
+          "factor": "top_k",
+          "F": 2.79,
+          "p": 0.1031,
+          "partial_eta2": 0.067
+        },
+        {
+          "factor": "rewrite",
+          "F": 3.55,
+          "p": 0.0672,
+          "partial_eta2": 0.083
+        },
+        {
+          "factor": "chunk_size:top_k",
+          "F": 2.79,
+          "p": 0.1031,
+          "partial_eta2": 0.067
+        },
+        {
+          "factor": "chunk_size:rewrite",
+          "F": 0.66,
+          "p": 0.4211,
+          "partial_eta2": 0.017
+        },
+        {
+          "factor": "top_k:rewrite",
+          "F": 2.05,
+          "p": 0.1599,
+          "partial_eta2": 0.05
+        },
+        {
+          "factor": "chunk_size:top_k:rewrite",
+          "F": 2.05,
+          "p": 0.1599,
+          "partial_eta2": 0.05
+        }
+      ],
+      "contrasts": [
+        {
+          "factor": "chunk_size",
+          "level_a": "small",
+          "level_b": "large",
+          "mean_diff_a_minus_b": 0.025,
+          "ci95": [
+            -0.029,
+            0.079
+          ],
+          "cohens_dz": 0.15,
+          "p": 0.3523
+        },
+        {
+          "factor": "top_k",
+          "level_a": "3",
+          "level_b": "8",
+          "mean_diff_a_minus_b": -0.025,
+          "ci95": [
+            -0.055,
+            0.005
+          ],
+          "cohens_dz": -0.26,
+          "p": 0.1031
+        },
+        {
+          "factor": "rewrite",
+          "level_a": "off",
+          "level_b": "on",
+          "mean_diff_a_minus_b": 0.062,
+          "ci95": [
+            -0.005,
+            0.13
+          ],
+          "cohens_dz": 0.3,
+          "p": 0.0672
+        }
+      ]
+    },
+    {
+      "metric": "mrr",
+      "anova": [
+        {
+          "factor": "chunk_size",
+          "F": 0.61,
+          "p": 0.4401,
+          "partial_eta2": 0.015
+        },
+        {
+          "factor": "top_k",
+          "F": 2.67,
+          "p": 0.1101,
+          "partial_eta2": 0.064
+        },
+        {
+          "factor": "rewrite",
+          "F": 2.87,
+          "p": 0.0985,
+          "partial_eta2": 0.068
+        },
+        {
+          "factor": "chunk_size:top_k",
+          "F": 2.67,
+          "p": 0.1101,
+          "partial_eta2": 0.064
+        },
+        {
+          "factor": "chunk_size:rewrite",
+          "F": 2.3,
+          "p": 0.1372,
+          "partial_eta2": 0.056
+        },
+        {
+          "factor": "top_k:rewrite",
+          "F": 1.47,
+          "p": 0.2333,
+          "partial_eta2": 0.036
+        },
+        {
+          "factor": "chunk_size:top_k:rewrite",
+          "F": 1.47,
+          "p": 0.2333,
+          "partial_eta2": 0.036
+        }
+      ],
+      "contrasts": [
+        {
+          "factor": "chunk_size",
+          "level_a": "small",
+          "level_b": "large",
+          "mean_diff_a_minus_b": 0.028,
+          "ci95": [
+            -0.044,
+            0.1
+          ],
+          "cohens_dz": 0.12,
+          "p": 0.4401
+        },
+        {
+          "factor": "top_k",
+          "level_a": "3",
+          "level_b": "8",
+          "mean_diff_a_minus_b": -0.005,
+          "ci95": [
+            -0.012,
+            0.001
+          ],
+          "cohens_dz": -0.26,
+          "p": 0.1101
+        },
+        {
+          "factor": "rewrite",
+          "level_a": "off",
+          "level_b": "on",
+          "mean_diff_a_minus_b": 0.052,
+          "ci95": [
+            -0.01,
+            0.114
+          ],
+          "cohens_dz": 0.27,
+          "p": 0.0985
+        }
+      ]
+    },
+    {
+      "metric": "ndcg_at_k",
+      "anova": [
+        {
+          "factor": "chunk_size",
+          "F": 0.72,
+          "p": 0.4003,
+          "partial_eta2": 0.018
+        },
+        {
+          "factor": "top_k",
+          "F": 2.74,
+          "p": 0.106,
+          "partial_eta2": 0.066
+        },
+        {
+          "factor": "rewrite",
+          "F": 3.41,
+          "p": 0.0726,
+          "partial_eta2": 0.08
+        },
+        {
+          "factor": "chunk_size:top_k",
+          "F": 2.74,
+          "p": 0.106,
+          "partial_eta2": 0.066
+        },
+        {
+          "factor": "chunk_size:rewrite",
+          "F": 2.75,
+          "p": 0.1051,
+          "partial_eta2": 0.066
+        },
+        {
+          "factor": "top_k:rewrite",
+          "F": 1.79,
+          "p": 0.1885,
+          "partial_eta2": 0.044
+        },
+        {
+          "factor": "chunk_size:top_k:rewrite",
+          "F": 1.79,
+          "p": 0.1885,
+          "partial_eta2": 0.044
+        }
+      ],
+      "contrasts": [
+        {
+          "factor": "chunk_size",
+          "level_a": "small",
+          "level_b": "large",
+          "mean_diff_a_minus_b": 0.027,
+          "ci95": [
+            -0.037,
+            0.092
+          ],
+          "cohens_dz": 0.13,
+          "p": 0.4003
+        },
+        {
+          "factor": "top_k",
+          "level_a": "3",
+          "level_b": "8",
+          "mean_diff_a_minus_b": -0.01,
+          "ci95": [
+            -0.022,
+            0.002
+          ],
+          "cohens_dz": -0.26,
+          "p": 0.106
+        },
+        {
+          "factor": "rewrite",
+          "level_a": "off",
+          "level_b": "on",
+          "mean_diff_a_minus_b": 0.055,
+          "ci95": [
+            -0.005,
+            0.115
+          ],
+          "cohens_dz": 0.29,
+          "p": 0.0726
+        }
+      ]
+    }
+  ]
+}
