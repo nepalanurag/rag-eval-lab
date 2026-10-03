@@ -6,9 +6,11 @@ mirroring the order the work was actually done in.
 """
 import nbformat as nbf
 from nbclient import NotebookClient
+import os
 
-PATH = "/home/hatch/workspace/resume-projects/rag-eval-lab/notebooks/analysis.ipynb"
-SRC = "/home/hatch/workspace/resume-projects/rag-eval-lab/src"
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PATH = os.path.join(HERE, "notebooks", "analysis.ipynb")
+SRC = os.path.join(HERE, "src")
 
 nb = nbf.v4.new_notebook()
 nb.metadata.kernelspec = {"display_name": "Python 3", "language": "python", "name": "python3"}
@@ -21,6 +23,8 @@ def code(text):
 
 md("""# RAG Evaluation Lab: which design choices actually matter?
 
+## Background
+
 I built a small question-answering system over biomedical abstracts and ran a
 proper experiment on it: a 2x2x2 factorial design testing chunk size, top-k,
 and query rewriting. This notebook walks through the whole thing: the corpus,
@@ -30,14 +34,39 @@ statistics, and what I concluded.
 The question I wanted answered: when you build a retrieval-augmented system,
 which of these three knobs is worth turning?""")
 
+md("""## Setup (the data)
+
+- **Corpus:** 579 recent PubMed abstracts, fetched via Entrez (no API key)
+  with four fixed queries: type 2 diabetes treatment (149), hypertension
+  management (139), asthma inhaler therapy (145), migraine prevention (146).
+  `data/corpus.jsonl`, built by `data/build_corpus.py`.
+- **Test questions:** 40 questions, 10 per topic, drafted by Gemini from a
+  source passage and kept only if a verbatim evidence quote supported the
+  answer (56 drafted, 52 passed verification). `data/questions.json`.
+- **Query rewrites:** one Gemini rewrite per question, generated once and
+  reused across conditions so rewriting is a clean factor.
+  `data/rewrites.json`.
+- **Generation labels:** claim-level faithfulness judgments from an
+  independent judge model, cached in `data/judge.json`.
+
+The retrieval experiment reruns live in this notebook with a TF-IDF ranker
+(no API calls). The generation and judging were done once; their labels are
+committed. Everything needed is in `data/` and `src/`, so the notebook reruns
+from the repo. One implementation note: `src/corpus.py` defaults to an old
+local path, so the notebook passes the repo-relative path explicitly.""")
+
 code(f"""import sys
-sys.path.insert(0, "{SRC}")
+import os
+ROOT = os.path.abspath(os.path.join(os.getcwd(), "..")) if os.path.basename(os.getcwd()) == "notebooks" else os.getcwd()
+sys.path.insert(0, os.path.join(ROOT, "src"))
+DATA = os.path.join(ROOT, "data")
+FIG = os.path.join(ROOT, "figures")
 import json
 import pandas as pd
 import numpy as np
 from corpus import load_corpus, build_chunks
 
-docs = load_corpus()
+docs = load_corpus(os.path.join(DATA, "corpus.jsonl"))
 print(f"{{len(docs)}} abstracts in the corpus")
 topics = pd.Series([d["topic_query"] for d in docs]).value_counts()
 print(topics.to_string())
@@ -46,7 +75,9 @@ print(f"\\nabstract length: median {{int(np.median(lens))}} words, range {{min(l
 print("\\nexample title:", docs[0]["title"][:110])
 """)
 
-md("""## Why a factorial experiment?
+md("""## Method""")
+
+md("""### Why a factorial experiment?
 
 I had three design choices to make: how big each text chunk should be, how many
 chunks to hand the generator, and whether to rewrite the user's question before
@@ -56,7 +87,7 @@ chunks). Every one of the 40 test questions goes through all 8 conditions, so
 questions act as their own controls. That is a repeated-measures design, and it
 is much more sensitive than testing 8 separate groups of questions.""")
 
-md("""## Analysis plan (written before running the experiment)
+md("""### Analysis plan (written before running the experiment)
 
 I am writing this down before looking at any results so I cannot cherry-pick
 afterwards.
@@ -83,7 +114,7 @@ If nothing is significant, I will say so and talk about effect sizes and ceiling
 effects instead of hunting for a story.""")
 
 code(f"""# Test questions: drafted by the LLM, then verified against the source passage
-qdata = json.load(open("{SRC}/../data/questions.json".replace("/src/../", "/")))
+qdata = json.load(open(os.path.join(DATA, "questions.json")))
 print("meta:", qdata["meta"])
 qs = qdata["questions"]
 print(f"\\n{{len(qs)}} questions, {{len(set(q['topic'] for q in qs))}} topics")
@@ -108,7 +139,7 @@ chunk_sets = {{
     "large": build_chunks(docs, 450, 60, prefix="l"),
 }}
 retrievers = {{name: Retriever(ch) for name, ch in chunk_sets.items()}}
-rewrites = json.load(open("{SRC}/../data/rewrites.json".replace("/src/../", "/")))
+rewrites = json.load(open(os.path.join(DATA, "rewrites.json")))
 q_by_id = {{q["question_id"]: q for q in qs}}
 small_by_id = {{c["chunk_id"]: c for c in chunk_sets["small"]}}
 
@@ -162,10 +193,12 @@ from IPython.display import Image, display
 for f in ["retrieval_ndcg_at_k_conditions.png",
           "retrieval_ndcg_at_k_chunk_size_x_rewrite.png",
           "retrieval_recall_at_k_chunk_size_x_top_k.png"]:
-    display(Image(filename=f"/home/hatch/workspace/resume-projects/rag-eval-lab/figures/{f}"))
+    display(Image(filename=os.path.join(FIG, f)))
 """)
 
-md("""## What the retrieval results say
+md("""## Results""")
+
+md("""### What the retrieval results say
 
 Nothing reached p < 0.05. The honest reading:
 
@@ -187,7 +220,7 @@ factors, I would need harder questions or a noisier corpus. I am reporting
 this instead of re-cutting the data until something is significant.""")
 
 code(f"""# Generation: faithfulness judgments on the pre-registered 10-question subset
-judged = json.load(open("{SRC}/../data/judge.json".replace("/src/../", "/")))
+judged = json.load(open(os.path.join(DATA, "judge.json")))
 gen_rows, abst = [], []
 for key, g in judged.items():
     is_abs = g["answer"].strip().lower().rstrip(".") == "not stated in the provided context"
@@ -206,7 +239,7 @@ print("\\nabstentions by condition:")
 print(abst.groupby(["chunk_size", "top_k", "rewrite"])["abstained"].sum().to_string())
 """)
 
-md("""## What the generation results say
+md("""### What the generation results say
 
 Faithfulness was at the ceiling: 0.993 on average across 76 scored answers,
 with 75 of them fully supported. A repeated-measures ANOVA on the 9 questions
@@ -230,9 +263,9 @@ The interesting bits are the exceptions:
   too strict, since the answer can live in more than one chunk. I kept the
   metric as pre-registered and I am flagging this as a limitation.""")
 
-code("""display(Image(filename="/home/hatch/workspace/resume-projects/rag-eval-lab/figures/generation_faithfulness_conditions.png"))""")
+code("""display(Image(filename=os.path.join(FIG, "generation_faithfulness_conditions.png")))""")
 
-md("""## Conclusions
+md("""## Takeaway
 
 1. For retrieval on this corpus, none of the three factors mattered much.
    Everything sat between 0.85 and 0.98 recall@k. The largest effect was query
