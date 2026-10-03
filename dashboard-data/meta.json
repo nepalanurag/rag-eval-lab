@@ -1,0 +1,35 @@
+{
+  "note": "Experiment setup.",
+  "corpus_abstracts": 579,
+  "corpus_topics": {
+    "type_2_diabetes_treatment": 149,
+    "migraine_prevention": 146,
+    "asthma_inhaler_therapy": 145,
+    "hypertension_management": 139
+  },
+  "abstract_length_words": {
+    "median": 257,
+    "min": 41,
+    "max": 2604
+  },
+  "questions": 40,
+  "questions_drafted": 56,
+  "questions_passed_verification": 52,
+  "factors": {
+    "chunk_size_words": [
+      150,
+      450
+    ],
+    "top_k": [
+      3,
+      8
+    ],
+    "rewrite": [
+      "off",
+      "on"
+    ]
+  },
+  "seed": 20261002,
+  "retriever": "TF-IDF (1-2 grams, cosine)",
+  "judge": "independent Gemini flash-tier judge, claim-level faithfulness"
+}
