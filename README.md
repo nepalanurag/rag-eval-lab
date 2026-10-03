@@ -10,6 +10,10 @@ and the largest effect was query rewriting *hurting* recall by about 6 points.
 Answer faithfulness was at ceiling (0.993 over 76 judged answers). Details and
 statistics below.
 
+## Interactive dashboard
+
+Results are easiest to explore in the interactive dashboard: https://anurag-nepal-portfolio.vercel.app/ai-lab/rag-eval-lab/
+
 ## The problem
 
 When you build a retrieval-augmented generation system, you face a pile of
