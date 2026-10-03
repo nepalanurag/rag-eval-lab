@@ -1,0 +1,65 @@
+{
+  "note": "Claim-level faithfulness of generated answers on the pre-registered 10-question subset (judge labels cached in data/judge.json). Faithfulness was at ceiling.",
+  "scored_answers": 76,
+  "mean_faithfulness": 0.9934,
+  "abstentions": 4,
+  "abstention_denominator": 80,
+  "by_condition": [
+    {
+      "chunk_size": "large",
+      "top_k": 3,
+      "rewrite": "off",
+      "faithfulness": 1.0,
+      "abstentions": 0
+    },
+    {
+      "chunk_size": "large",
+      "top_k": 3,
+      "rewrite": "on",
+      "faithfulness": 1.0,
+      "abstentions": 0
+    },
+    {
+      "chunk_size": "large",
+      "top_k": 8,
+      "rewrite": "off",
+      "faithfulness": 1.0,
+      "abstentions": 0
+    },
+    {
+      "chunk_size": "large",
+      "top_k": 8,
+      "rewrite": "on",
+      "faithfulness": 1.0,
+      "abstentions": 0
+    },
+    {
+      "chunk_size": "small",
+      "top_k": 3,
+      "rewrite": "off",
+      "faithfulness": 1.0,
+      "abstentions": 1
+    },
+    {
+      "chunk_size": "small",
+      "top_k": 3,
+      "rewrite": "on",
+      "faithfulness": 1.0,
+      "abstentions": 1
+    },
+    {
+      "chunk_size": "small",
+      "top_k": 8,
+      "rewrite": "off",
+      "faithfulness": 0.944,
+      "abstentions": 1
+    },
+    {
+      "chunk_size": "small",
+      "top_k": 8,
+      "rewrite": "on",
+      "faithfulness": 1.0,
+      "abstentions": 1
+    }
+  ]
+}
