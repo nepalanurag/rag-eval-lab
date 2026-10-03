@@ -1,0 +1,70 @@
+{
+  "note": "Mean retrieval metrics over 40 questions for each of the 8 conditions (2x2x2: chunk_size x top_k x rewrite).",
+  "n_questions": 40,
+  "conditions": [
+    {
+      "chunk_size": "large",
+      "top_k": 3,
+      "rewrite": "off",
+      "recall_at_k": 0.925,
+      "mrr": 0.833,
+      "ndcg_at_k": 0.857
+    },
+    {
+      "chunk_size": "large",
+      "top_k": 3,
+      "rewrite": "on",
+      "recall_at_k": 0.85,
+      "mrr": 0.8,
+      "ndcg_at_k": 0.813
+    },
+    {
+      "chunk_size": "large",
+      "top_k": 8,
+      "rewrite": "off",
+      "recall_at_k": 0.95,
+      "mrr": 0.84,
+      "ndcg_at_k": 0.868
+    },
+    {
+      "chunk_size": "large",
+      "top_k": 8,
+      "rewrite": "on",
+      "recall_at_k": 0.925,
+      "mrr": 0.815,
+      "ndcg_at_k": 0.842
+    },
+    {
+      "chunk_size": "small",
+      "top_k": 3,
+      "rewrite": "off",
+      "recall_at_k": 0.975,
+      "mrr": 0.888,
+      "ndcg_at_k": 0.91
+    },
+    {
+      "chunk_size": "small",
+      "top_k": 3,
+      "rewrite": "on",
+      "recall_at_k": 0.9,
+      "mrr": 0.812,
+      "ndcg_at_k": 0.835
+    },
+    {
+      "chunk_size": "small",
+      "top_k": 8,
+      "rewrite": "off",
+      "recall_at_k": 0.975,
+      "mrr": 0.888,
+      "ndcg_at_k": 0.91
+    },
+    {
+      "chunk_size": "small",
+      "top_k": 8,
+      "rewrite": "on",
+      "recall_at_k": 0.9,
+      "mrr": 0.812,
+      "ndcg_at_k": 0.835
+    }
+  ]
+}
