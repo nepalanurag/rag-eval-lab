@@ -10,7 +10,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-BASE = "/home/hatch/workspace/resume-projects/rag-eval-lab"
+HERE = os.path.dirname(os.path.abspath(__file__))
+BASE = os.path.dirname(HERE)
 FIG = f"{BASE}/figures"
 
 plt.rcParams.update(

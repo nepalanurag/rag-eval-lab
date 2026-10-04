@@ -12,12 +12,15 @@ No model selection or p-hacking: the three factors and the metrics were fixed
 before the experiment ran (see the analysis-plan cell in the notebook).
 """
 import json
+import os
 import numpy as np
 import pandas as pd
 from scipy import stats
 from statsmodels.stats.anova import AnovaRM
 
-BASE = "/home/hatch/workspace/resume-projects/rag-eval-lab/data"
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+BASE = os.path.join(ROOT, "data")
 OUT = f"{BASE}/analysis_results.json"
 
 CONTRASTS = [

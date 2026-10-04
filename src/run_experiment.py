@@ -14,18 +14,22 @@ This is stated as a limitation in the README/REPORT.
 """
 import itertools
 import json
+import os
 import random
 import re
 import sys
 
-sys.path.insert(0, "/home/hatch/workspace/resume-projects/rag-eval-lab/src")
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+
+sys.path.insert(0, os.path.join(ROOT, "src"))
 from corpus import load_corpus, build_chunks  # noqa: E402
 from retrieval import Retriever, retrieval_metrics  # noqa: E402
 from gemini_client import generate, set_model  # noqa: E402
 set_model("gemini-3.5-flash-lite")  # free-tier quota is per model; 2.5-flash exhausted
 
 SEED = 20261002
-BASE = "/home/hatch/workspace/resume-projects/rag-eval-lab/data"
+BASE = os.path.join(ROOT, "data")
 CHUNK_LEVELS = {"small": (150, 30), "large": (450, 60)}
 TOPK_LEVELS = [3, 8]
 REWRITE_LEVELS = ["off", "on"]

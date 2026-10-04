@@ -1,8 +1,10 @@
 """Generate dashboard.html: self-contained Plotly dashboard (CDN only)."""
 import json
 import html
+import os
 
-BASE = "/home/hatch/workspace/resume-projects/rag-eval-lab"
+HERE = os.path.dirname(os.path.abspath(__file__))
+BASE = os.path.dirname(HERE)
 OUT = BASE + "/dashboard.html"
 PLOTLY_CDN = "https://cdn.plot.ly/plotly-2.27.0.min.js"
 

@@ -24,7 +24,11 @@ HOSTS = ["generativelanguage.googleapis.com"]
 BASE = "https://generativelanguage.googleapis.com/v1beta"
 MODEL = "gemini-2.5-flash"  # flash tier, text generation
 
-CACHE_DIR = "/home/hatch/workspace/resume-projects/rag-eval-lab/data/cache"
+CACHE_DIR = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    "data",
+    "cache",
+)
 
 
 def _cache_key(model, prompt, temperature):

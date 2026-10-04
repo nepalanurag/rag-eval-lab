@@ -6,14 +6,18 @@ conditions use the same judge model. Writes judge.json incrementally.
 Run: python3 src/finish_judging.py
 """
 import json
+import os
 import re
 import sys
 
-sys.path.insert(0, "/home/hatch/workspace/resume-projects/rag-eval-lab/src")
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+
+sys.path.insert(0, os.path.join(ROOT, "src"))
 from corpus import load_corpus, build_chunks  # noqa: E402
 from gemini_client import generate, set_model, QuotaExhausted  # noqa: E402
 
-BASE = "/home/hatch/workspace/resume-projects/rag-eval-lab/data"
+BASE = os.path.join(ROOT, "data")
 OUT = f"{BASE}/judge.json"
 
 REJUDGE_MODEL = "gemini-3.1-flash-lite"

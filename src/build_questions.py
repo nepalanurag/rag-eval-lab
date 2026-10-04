@@ -12,17 +12,21 @@ Pipeline (honest by construction):
 Drafted/kept counts are printed and recorded in the output file.
 """
 import json
+import os
 import random
 import re
 import sys
 
-sys.path.insert(0, "/home/hatch/workspace/resume-projects/rag-eval-lab/src")
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+
+sys.path.insert(0, os.path.join(ROOT, "src"))
 from corpus import load_corpus, build_chunks  # noqa: E402
 from gemini_client import generate, set_model, regenerate  # noqa: E402
 set_model("gemini-3.5-flash-lite")  # free-tier quota is per model; 2.5-flash exhausted
 
 SEED = 20261002
-OUT = "/home/hatch/workspace/resume-projects/rag-eval-lab/data/questions.json"
+OUT = os.path.join(ROOT, "data", "questions.json")
 N_DRAFT = 56
 N_KEEP_PER_TOPIC = 10
 

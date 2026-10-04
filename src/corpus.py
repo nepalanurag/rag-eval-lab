@@ -1,8 +1,11 @@
 """Corpus loading and deterministic chunking."""
 import json
+import os
 import re
 
-CORPUS_PATH = "/home/hatch/workspace/resume-projects/rag-eval-lab/data/corpus.jsonl"
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+CORPUS_PATH = os.path.join(ROOT, "data", "corpus.jsonl")
 
 WORD_RE = re.compile(r"\S+")
 

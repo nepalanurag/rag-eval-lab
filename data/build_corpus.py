@@ -11,13 +11,15 @@ Fixed design decisions (documented here, not chosen after seeing results):
 Entrez etiquette: no API key, <= 3 requests/second, tool name + email in params.
 """
 import json
+import os
 import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
 SEED = 20261002
-OUT = "/home/hatch/workspace/resume-projects/rag-eval-lab/data/corpus.jsonl"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(ROOT, "data", "corpus.jsonl")
 
 QUERIES = {
     "type_2_diabetes_treatment": "type 2 diabetes treatment",

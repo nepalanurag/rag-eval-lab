@@ -5,13 +5,17 @@ rewrite-on conditions (small/big chunks), so 'query rewriting' is a clean
 experimental factor with no re-randomization noise.
 """
 import json
+import os
 import sys
 
-sys.path.insert(0, "/home/hatch/workspace/resume-projects/rag-eval-lab/src")
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+
+sys.path.insert(0, os.path.join(ROOT, "src"))
 from gemini_client import generate, set_model  # noqa: E402
 set_model("gemini-3.5-flash-lite")  # free-tier quota is per model; 2.5-flash exhausted
 
-OUT = "/home/hatch/workspace/resume-projects/rag-eval-lab/data/rewrites.json"
+OUT = os.path.join(ROOT, "data", "rewrites.json")
 
 REWRITE_PROMPT = """Rewrite the medical question below as a short standalone search
 query: keep the key medical terms, drop filler words, do not answer it.
@@ -22,7 +26,7 @@ Question: {question}"""
 
 def main():
     with open(
-        "/home/hatch/workspace/resume-projects/rag-eval-lab/data/questions.json"
+        os.path.join(ROOT, "data", "questions.json")
     ) as f:
         questions = json.load(f)["questions"]
     out = {}
