@@ -1,0 +1,9 @@
+# Pinned 2026-10-05. The analysis needs no API calls; data files are committed.
+# run_experiment.py needs a Gemini credential for fresh runs (not in this repo).
+numpy==2.2.4
+pandas==2.2.3
+scikit-learn==1.6.1
+scipy==1.14.1
+matplotlib==3.10.1
+statsmodels==0.14.4
+requests==2.32.3
